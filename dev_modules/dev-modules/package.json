@@ -1,0 +1,20 @@
+{
+  "name": "@spherex-xyz/dev-modules",
+  "version": "1.9.0",
+  "license": "UNLICENSED",
+  "author": "SphereX Technologies LTD",
+  "description": "A fork of @dlsl/dev-modules in version 1.9.0 (already deprecated) which deploys spherex's proxies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spherex-xyz/dlsl_dev_modules_1.9.0.git"
+  },
+  "files": [
+    "**/*.sol",
+    "!mock/**/*"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "4.5.0",
+    "@openzeppelin/contracts-upgradeable": "4.5.0",
+    "@spherex-xyz/contracts": "github:spherex-xyz/spherex-protect-contracts#feature/proxy-oz-4.5.0"
+  }
+}
